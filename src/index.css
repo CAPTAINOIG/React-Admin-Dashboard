@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.app {
+  display: flex;
+  /* min-height: 100vh; */
+/* } */
+ /* .sidebar { */
+  /* flex: 1 1 0; */
+  /* max-width: 00px; */
+  /* padding: 2rem 1rem;
+}
+.sidebar h3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}  */
+/* .sidebar1 .menu {
+  margin: 0 -1rem;
+} */
+/* .sidebar1 .menu .item {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  text-decoration: none;
+} */
+/* .sidebar1 .menu .item:hover,    .sidebar .menu .active {
+  color: #3bba9c;
+  border-right: 5px solid #3bba9c;
+} */
+/* .content1 {
+  flex: 1 1 0;
+  padding: 2rem;
+} */
