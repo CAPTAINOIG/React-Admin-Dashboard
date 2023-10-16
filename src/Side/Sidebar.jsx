@@ -74,20 +74,6 @@ const Sidebar = () => {
       },
     };
 
-  // const subMenusList = [
-  //   {
-  //     name: "build",
-  //     icon: RiBuilding3Line,
-  //     menus: ["auth", "app settings", "stroage", "hosting"],
-  //   },
-  //   {
-  //     name: "analytics",
-  //     icon: TbReportAnalytics,
-  //     menus: ["dashboard", "realtime", "events"],
-  //   },
-  // ];
-  // sidebar is the toggle bar
-
   return (
     <div className=" relative">
       <div onClick={() => overlayClicked()} className={`md:hidden fixed inset-0 max-h-screen z-[998] bg-gray-500  opacity-30 ${sideBarOpen ? "block" : "hidden"} `}></div>
@@ -191,8 +177,7 @@ const Sidebar = () => {
                 rotate: 180,
               }
           }
-          transition={{ duration: 0 }} className="absolute w-fit h-fit hidden md:block z-50  right-2 bottom-24 cursor-pointer bg-blue-50 dark:text-black rounded-full p-2 my-auto"
-        >
+          transition={{ duration: 0 }} className="absolute w-fit h-fit z-50  right-2 bottom-24 cursor-pointer bg-blue-50 dark:text-black rounded-full p-2 my-auto">
           <IoIosArrowBack size={25} />
         </motion.div>
       </motion.div>
