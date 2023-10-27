@@ -1,6 +1,6 @@
 import React from 'react'
 import Topbox from '../pages/Top/Topbox'
-import ChartBoxUser from '../pages/Chartbox/Chartboxuser'
+import ChartBoxUser from '../pages/Chartbox/ChartBoxUser'
 import { ChartBox, chartBoxRevenue, chartBoxConversion, chartProduct } from '../data'
 import ChartBoxProduct from '../pages/ChartProduct/ChartBoxProduct'
 // import PieChartBox from '../pages/PieBox/PieChartBox'
