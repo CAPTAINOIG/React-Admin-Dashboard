@@ -1,0 +1,21 @@
+body{
+    overflow-x: hidden;
+  }
+  
+  .pie{
+    margin-left: -80px;
+  }
+  
+  
+  
+  @media (max-width:700px) {
+    #area{
+      width: 70%;
+      margin-left: -20px;
+      margin-top: -50px;
+    }
+    .pie{
+      margin-left: -49px;
+    }
+  
+  }
