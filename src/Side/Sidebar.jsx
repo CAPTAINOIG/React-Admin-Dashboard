@@ -87,6 +87,12 @@ const Sidebar = () => {
 
         <div className="flex flex-col dark:bg-slate-800 dark:text-white text-white text-4xl bg-blue-900 h-full">
           <ul className=" px-2.5 text-[0.9rem] py-5 flex flex-col gap-2 overflow-x-hidden font-serif   dark:scrollbar-track-slate-400  dark:scrollbar-thumb-slate-700  md:h-[78%] h-[75%]">
+          <li>
+              <NavLink to={"/"} className="link flex bg-blue-500 dark:bg-gray-500 rounded gap-8 hover:bg-white hover:rounded hover:text-black">
+                <AiOutlineAppstore size={23} className="mt-2 min-w-max" />
+                Homepage
+              </NavLink>
+            </li>
             <li>
               <NavLink to={"/Allapps"} className="link flex gap-8 hover:bg-white hover:rounded hover:text-black">
                 <AiOutlineAppstore size={23} className="mt-2 min-w-max" />
