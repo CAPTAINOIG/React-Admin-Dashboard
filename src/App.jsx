@@ -6,6 +6,7 @@ import Authentication from './component/Authentication'
 import Homepage from './component/Homepage'
 
 
+
 function App() {
  
   
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<Homepage/>}/>
           <Route path='/Allapps' element={<Allapps/>}/> 
           <Route path='/authentication' element={<Authentication/>}/>
+        
         </Routes>
       </Rootlayout>
     </>
