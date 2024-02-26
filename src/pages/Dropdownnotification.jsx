@@ -29,7 +29,7 @@ const Dropdownnotification = () => {
                     <div className='px-4'>
                         <p className=' text-sm font-medium text-xl text-center font-medium'>Notifications</p>
                     </div>
-                    <div className="flex h-auto flex gap-4 border-t border-stroke px-1 py-3 hover:bg-gray-2 dark:border-strokedark dark:hover:bg-meta-4 flex-col lg:text-sm overflow-y-auto">
+                    <div className="flex h-auto  gap-4 border-t border-stroke px-1 py-3 hover:bg-gray-2 dark:border-strokedark dark:hover:bg-meta-4 flex-col lg:text-sm overflow-y-auto">
                         <div className='border border-t rounded border-stroke px-2 py-5'>
                             <div>Edit your information in a swipe Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</div>
                             <div className="text-xs mt-3">12 May, 2025 ⏲</div>

@@ -7,7 +7,7 @@ export const AppContext = createContext();
 const DashboardContext = ({ children }) => {
     const handle = useFullScreenHandle();
     const [theme, setTheme] = useState('light');
-    const isTablet = useMediaQuery({ query: '(max-width: 768px)' });
+    const isTablet = useMediaQuery({ query: '(max-width: 1000px)' });
     const [sideBarOpen, setSideBarOpen] = useState(isTablet ? false : true);
 
     const toggleSideBar = () => {
